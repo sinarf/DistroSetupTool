@@ -1,0 +1,30 @@
+vim
+git
+giggle
+maven2
+gpodder
+screen
+filezilla
+freeplane
+hplip-gui hplip
+aspell-fr aspell-en
+frozen-bubble
+wine
+exuberant-ctags
+mercurial 
+bzr
+startupmanager
+gitmagic
+subversion
+openssh-server
+lm-sensors
+lame
+seamonkey
+subversion
+gnome-do
+desktopcouch-ubuntuone
+rabbitvcs-thunar
+rabbitvcs-gedit
+rabbitvcs-cli
+rabbitvcs-nautilus3
+gradle
