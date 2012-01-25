@@ -1,0 +1,33 @@
+# eclipse IDE files
+.classpath
+.component
+.pmd
+.project
+.settings
+.springBeans
+.wtpmodule
+
+# gradle
+.gradle
+
+# intlellj IDEA
+*.iml
+*.ipr
+*.iws
+
+# binary directories
+target
+test
+bin
+bin-groovy
+build
+
+# backup files
+*.sw*
+*~
+*.bak
+
+# log files
+*.log
+.groovy
+.directory
