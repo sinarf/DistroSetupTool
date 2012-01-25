@@ -3,6 +3,16 @@
 apply plugin: 'groovy'
 apply plugin: 'eclipse'
 
+
+task zip(type: Zip) {
+	description = "Zip the script and resource in one zip file."
+	classifier = 'src'
+	from projectDir
+	include 'src/**/*'
+}
+
+
+
 repositories {
 	mavenLocal()
 	mavenCentral()
