@@ -28,3 +28,5 @@ rabbitvcs-gedit
 rabbitvcs-cli
 rabbitvcs-nautilus3
 gradle
+gtg
+openjdk-7-jre
