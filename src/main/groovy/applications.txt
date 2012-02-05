@@ -31,4 +31,4 @@ gradle
 openjdk-7-jre
 mc 
 awesome
-
+jedit
