@@ -27,8 +27,9 @@ rabbitvcs-thunar
 rabbitvcs-gedit
 rabbitvcs-cli
 rabbitvcs-nautilus3
-gradle
+gradlesom
 openjdk-7-jre
 mc 
 awesome
 jedit
+anki
