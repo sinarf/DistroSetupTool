@@ -29,3 +29,6 @@ rabbitvcs-cli
 rabbitvcs-nautilus3
 gradle
 openjdk-7-jre
+mc 
+awesome
+
