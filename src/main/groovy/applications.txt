@@ -24,7 +24,6 @@ seamonkey
 subversion
 gnome-do
 desktopcouch-ubuntuone
-rabbitvcs-thunar
 rabbitvcs-gedit
 rabbitvcs-cli
 rabbitvcs-nautilus3

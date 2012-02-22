@@ -1,7 +1,7 @@
 #!/bin/sh
 # @author Michel Blavin 
 # 
-# This script sets up my xubuntu box  after a reinstallation. 
+# This script sets up my ubuntu box  after a reinstallation. 
 #
 
 # Make sure only root can run our script
