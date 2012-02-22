@@ -20,7 +20,8 @@ else {
 [
 	"Update sources..."					:	"apt-get update",
 	"Update software..."				:	"apt-get -yy upgrade",
-	"Install applications from $apps"	:	"apt-get install -yy $apps"
+	"Install applications from $apps"	:	"apt-get install -yy $apps",
+	"Autoremove unused packages"	    :	"apt-get autoremove"
 ].each { message, command ->
 	println message
 	executeInShell command
@@ -35,7 +36,7 @@ sleep 5000
  * @exception RuntimeException throw a runtime exeption if cmd sending anything to the error stream.
  */
 def executeInShell(cmd) {
-	println "Excecuting command on a external terminal: '$cmd'"
+	println "Excecuting command: '$cmd'"
 	def proc = "$cmd".execute()
 	proc.waitFor()
 	def out = proc.inputStream
