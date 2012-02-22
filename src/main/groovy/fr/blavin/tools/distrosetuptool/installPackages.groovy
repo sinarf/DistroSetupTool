@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+ackage fr.blavin.tools.distrosetuptool
 
 /**
  * 

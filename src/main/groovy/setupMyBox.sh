@@ -14,5 +14,5 @@ echo "Git integration in Nautilus" &&\
 add-apt-repository -yy ppa:rabbitvcs/ppa &&\
 echo "installing groovy"&&\
 apt-get install -yy groovy &&\
-groovy installPackages.groovy
+groovy fr/blavin/tools/distrosetuptool/installPackages.groovy
 
