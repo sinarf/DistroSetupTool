@@ -1,4 +1,4 @@
-ackage fr.blavin.tools.distrosetuptool
+
 
 /**
  * 
@@ -15,6 +15,7 @@ if (applicationsFile.exists())
 	applicationsFile.eachLine { if (!it.startsWith("#")) apps += "$it "}
 else {
 	System.err.println "Please provide a application file: $applicationsFilePath"
+	System.exit(1)
 }
 
 [
