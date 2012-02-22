@@ -1,3 +1,4 @@
+gnome
 vim
 git
 giggle
