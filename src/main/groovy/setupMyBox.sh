@@ -10,9 +10,11 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
+SCRIPT_DIR=`dirname $0`
+
 echo "Git integration in Nautilus" &&\
 add-apt-repository -yy ppa:rabbitvcs/ppa &&\
 echo "installing groovy"&&\
 apt-get install -yy groovy &&\
-groovy fr/blavin/tools/distrosetuptool/installPackages.groovy
+groovy $SCRIPT_DIR/fr/blavin/tools/distrosetuptool/installPackages.groovy
 
