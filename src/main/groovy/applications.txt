@@ -27,9 +27,15 @@ rabbitvcs-thunar
 rabbitvcs-gedit
 rabbitvcs-cli
 rabbitvcs-nautilus3
-gradlesom
+gradle
 openjdk-7-jre
 mc 
 awesome
 jedit
 anki
+gawk
+remmina
+gnome-mplayer
+totem
+ubuntuone-installer
+xubuntu-restricted-extras
