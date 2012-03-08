@@ -12,9 +12,8 @@ fi
 
 SCRIPT_DIR=`dirname $0`
 
-echo "Git integration in Nautilus" &&\
-add-apt-repository -yy ppa:rabbitvcs/ppa &&\
 echo "installing groovy"&&\
 apt-get install -yy groovy &&\
-groovy $SCRIPT_DIR/installPackages.groovy
+groovy $SCRIPT_DIR/InstallPPA.groovy &&\
+groovy $SCRIPT_DIR/InstallPackages.groovy
 
