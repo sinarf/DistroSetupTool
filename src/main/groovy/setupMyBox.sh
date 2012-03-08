@@ -17,5 +17,3 @@ apt-get install -yy groovy &&\
 groovy $SCRIPT_DIR/InstallPPA.groovy &&\
 groovy $SCRIPT_DIR/InstallPackages.groovy
 
-echo correct the dumb ass idea to move button on the left side of the window 
-gconftool-2 --set /apps/metacity/general/button_layout --type string menu:minimize,maximize,close

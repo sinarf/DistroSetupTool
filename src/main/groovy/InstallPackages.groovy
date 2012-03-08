@@ -25,7 +25,7 @@ println "Install applications..."
 
 new File (applicationsFilePath).eachLine { app ->
 	println 	"Install applications from $app"
-	Utils.executeInShell "apt-get install -yy $apps"
+	Utils.executeInShell "apt-get install -yy $app"
 }
 
 println "Autoremove unused applications"
