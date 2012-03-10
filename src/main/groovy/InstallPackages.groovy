@@ -19,7 +19,7 @@ println "Update sources..."
 Utils.executeInShell "apt-get update"
 
 println "Update software..."
-Utils.executeInShell "apt-get upgrade"
+Utils.executeInShell "apt-get upgrade -yy"
 
 println "Install applications..."
 
