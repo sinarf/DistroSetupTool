@@ -15,5 +15,6 @@ SCRIPT_DIR=`dirname $0`
 echo "installing groovy"&&\
 apt-get install -yy groovy &&\
 groovy $SCRIPT_DIR/InstallPPA.groovy &&\
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E6A233DBE3AFBEFC
 groovy $SCRIPT_DIR/InstallPackages.groovy
 
