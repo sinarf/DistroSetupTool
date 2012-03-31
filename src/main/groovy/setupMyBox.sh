@@ -11,6 +11,10 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 SCRIPT_DIR=`dirname $0`
+echo installing dropbox...
+cd ~ && wget -O - "http://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+echo start Dropbox....
+~/.dropbox-dist/dropboxd
 
 echo "installing groovy"&&\
 apt-get install -yy groovy &&\
